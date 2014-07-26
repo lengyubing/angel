@@ -28,7 +28,7 @@ environments {
 			pooled = true
 			driverClassName = "com.mysql.jdbc.Driver"
 			username = "root"
-			password = "mfbi1793"
+			password = "xxxxmmm"
 			dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
 			url = "jdbc:mysql://localhost/lajiaowawa?useUnicode=true&&characterEncoding=utf-8&autoReconnect=true"
 			pooled = true
