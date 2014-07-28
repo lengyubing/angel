@@ -19,7 +19,7 @@ environments {
     }
     test {
         dataSource {
-            dbCreate = "update"
+            dbCreate = "create-drop"
             url = "jdbc:mysql://localhost/lajiaowawa?useUnicode=true&&characterEncoding=utf-8&autoReconnect=true"
         }
     }

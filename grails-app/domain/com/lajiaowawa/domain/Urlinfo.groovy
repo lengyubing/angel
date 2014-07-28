@@ -6,7 +6,15 @@ package com.lajiaowawa.domain
  * @author xiaonanzhi
  *
  */
-class Urlinfo extends Urllib{
+class Urlinfo{
+	String catTag
+	String area
+	long createTime
+	long modifyTime
+	/**
+	 * ÍøÒ³½ØÍ¼
+	 */
+	String shortCutSnap
 	String address
 	static belongsTo=[owner:User,standardUrl:Urllib]
 	static constraints = { address(url:true) }
